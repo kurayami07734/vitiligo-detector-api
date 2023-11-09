@@ -4,4 +4,4 @@ fastapi
 starlette
 numpy
 pillow
-tensorflow
+tensorflow-cpu

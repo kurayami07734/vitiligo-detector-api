@@ -7,7 +7,7 @@ model = None
 
 
 def load_model():
-    model = tfkm.load_model("./imageclassifier.h5")
+    model = tfkm.load_model("./vitiligoDetector.keras")
     print("Model loaded")
     return model
 
