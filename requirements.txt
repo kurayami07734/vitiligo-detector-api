@@ -1,7 +1,7 @@
 python-multipart
 uvicorn
 fastapi
-starlette
 numpy
 pillow
+starlette
 tensorflow-cpu==2.13.0

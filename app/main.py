@@ -1,7 +1,7 @@
 from fastapi import FastAPI, File, UploadFile
 from starlette.responses import RedirectResponse
 
-from model import predict, read_imagefile
+from app.model import predict, read_imagefile
 
 app_desc = """<h2>Try this app by uploading any image with `predict/image`</h2>"""
 

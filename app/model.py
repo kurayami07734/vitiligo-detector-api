@@ -7,7 +7,7 @@ model = None
 
 
 def load_model():
-    model = tfkm.load_model("../resnet.keras")
+    model = tfkm.load_model("./resnet.keras")
     print("Model loaded")
     return model
 
